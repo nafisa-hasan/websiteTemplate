@@ -16,6 +16,7 @@ class Song(models.Model):
     file_type = models.CharField(max_length=10)
     song_title = models.CharField(max_length=250)
 
+'''
 class Details(models.Model):
     reporttype = models.CharField(db_column='ReportType', max_length=5, blank=True, null=True)  # Field name made lowercase.
     transactionid = models.TextField(db_column='TransactionID', blank=True, null=True)  # Field name made lowercase.
@@ -29,4 +30,4 @@ class Details(models.Model):
     class Meta:
         managed = False
         db_table = 'details'
-
+'''

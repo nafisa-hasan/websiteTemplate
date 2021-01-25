@@ -1,3 +1,4 @@
+'''
 import django_tables2 as tables
 from .models import Details
 import itertools
@@ -14,3 +15,4 @@ class ProjectTable(tables.Table):
        predictiondate = tables.Column("predictiondate")
        manualintervention = tables.Column("manualintervention")
        formerlynomi = tables.Column("formerlynomi")
+'''
